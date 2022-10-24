@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    color: black;
+    background: #F6F9FF;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main.cards{
+    display: flex;
+    padding: 32px;
+
+}
+main.cards section.card .icon{
+    width: 240px;
+    height: 240px;
+}
+main.cards section.card img{
+    width: 100%;
+}
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px, 16px;
+    border-radius: 8px;
+    max-height: 256px;
+    margin-left: 32px;
+}
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+main.cards section.card button{
+    text-transform: uppercase;
+    border-radius: 32px;
+    cursor: pointer;
+    background: linear-gradient(to top, white,red);
+    color: #F6F9FF;
+}
+.bu{
+    background-color: radial-gradient(to right, green, blue)
+}
+main.cards.sq{
+    background: radial-gradient(to right, lightblue, brown)
+}
+main.cards.ch{
+    background: radial-gradient(to right, rgb(255, 115, 0), red)
+}
